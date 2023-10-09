@@ -7,7 +7,7 @@ name: Container build and scan
 on: [push, pull_request]
 
 jobs:
-  build-scan2:
+  build-scan:
     runs-on: ubuntu-latest
     steps:
     - name: Checkout
