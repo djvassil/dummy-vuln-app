@@ -3,7 +3,7 @@ env:
     REGISTRY_HOST: "docker.io"
     IMAGE_NAME: "dummy-vuln-app"
     IMAGE_TAG: "latest"
-name: Container build, scan and push
+name: Container build and scan 
 on: [push, pull_request]
 
 jobs:
